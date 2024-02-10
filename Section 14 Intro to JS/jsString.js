@@ -2,5 +2,5 @@ var message = "Hello";
 var name = "Conner";
 
 
-alert(message + " there, " + name);
+console.log(message + " there, " + name);
 
