@@ -24,7 +24,7 @@ function getMilk(bottles) {
 getMilk(12);
 
 
-// cost of challenge
+// cost of 
 
 
 function getMilk(money) {
@@ -47,3 +47,5 @@ console.log("moveUp");
 
 
 }
+
+getMilk(5);
