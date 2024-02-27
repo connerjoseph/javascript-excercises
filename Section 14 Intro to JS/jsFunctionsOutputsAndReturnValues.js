@@ -117,3 +117,39 @@ function calcChange(startingAmount, costPerBottle) {
 }
 
 console.log("Hello master, here is your " +  getMilk(5) + " change.");
+
+// less repetition 
+
+function getMilk(money, costPerBottle) {
+  console.log("leaveHouse");
+  console.log("moveRight");
+  console.log("moveUp");
+  console.log("moveRight");
+  console.log("moveUp");
+
+
+  console.log("buy " + calcBottles(money,costPerBottle) + " bottles of milk");
+
+  console.log("moveRight");
+  console.log("moveUp");
+  console.log("moveRight");
+  console.log("moveUp");
+
+  return calcChange(money, 1.5);
+}
+
+
+function calcBottles(startingMoney, costPerBottle) {
+
+var numberOfBottles = Math.floor(startingMoney / costPerBottle);
+
+return numberOfBottles;
+
+}
+
+function calcChange(startingAmount, costPerBottle) {
+  var change = startingAmount % costPerBottle;
+  return change;
+}
+
+console.log("Hello master, here is your " +  getMilk(10, 3) + " change.");
