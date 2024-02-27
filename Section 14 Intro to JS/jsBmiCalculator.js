@@ -11,3 +11,14 @@ function bmiCalculator(weight, height) {
 }
 
 // raise number to power Math.pow()
+
+
+var bmi = bmiCalculator(65, 1.8);
+
+//////////////////////////
+
+function bmiCalculator(weight, height) {
+
+    var bmi = weight / Math.pow(height, 2);
+    return bmi;
+}
