@@ -28,3 +28,92 @@ function getMilk(money) {
 } // calling the function
 
 // remember Math floor so you do not get decimals for whole numbers
+
+
+
+// number of bottles based on money into its on own function
+
+
+function calcBottles(startingMoney, costPerBottle) {
+
+  var numberOfBottles = Math.floor(startingMoney / costPerBottle);
+
+  return numberOfBottles;
+
+}
+
+getMilk(5);
+
+
+
+// New version for any amount
+
+
+function getMilk(money) {
+  console.log("leaveHouse");
+  console.log("moveRight");
+  console.log("moveUp");
+  console.log("moveRight");
+  console.log("moveUp");
+
+
+  console.log("buy " + calcBottles(money, 1.5) + " bottles of milk");
+
+  console.log("moveRight");
+  console.log("moveUp");
+  console.log("moveRight");
+  console.log("moveUp");
+
+  return money % 1.5;
+
+
+}
+
+
+function calcBottles(startingMoney, costPerBottle) {
+
+var numberOfBottles = Math.floor(startingMoney / costPerBottle);
+
+return numberOfBottles;
+
+}
+
+
+getMilk(5);
+
+// to calculate change.
+
+
+function getMilk(money) {
+  console.log("leaveHouse");
+  console.log("moveRight");
+  console.log("moveUp");
+  console.log("moveRight");
+  console.log("moveUp");
+
+
+  console.log("buy " + calcBottles(money, 1.5) + " bottles of milk");
+
+  console.log("moveRight");
+  console.log("moveUp");
+  console.log("moveRight");
+  console.log("moveUp");
+
+  return calcChange(money, 1.5);
+}
+
+
+function calcBottles(startingMoney, costPerBottle) {
+
+var numberOfBottles = Math.floor(startingMoney / costPerBottle);
+
+return numberOfBottles;
+
+}
+
+function calcChange(startingAmount, costPerBottle) {
+  var change = startingAmount % costPerBottle;
+  return change;
+}
+
+console.log("Hello master, here is your " +  getMilk(5) + " change.");
