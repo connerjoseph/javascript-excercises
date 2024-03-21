@@ -29,7 +29,7 @@ var rate = document.getElementById('rate-option').value;
 
 // https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
 
-// Below is lesson in real form
+// Below is lesson in real form for future reference 
 
 function persistChange(elm) {
     const elm_type = elm.type.toLowerCase();
