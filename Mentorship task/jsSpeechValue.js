@@ -24,3 +24,7 @@ const rate = document.getElementById('rate-option').value;
 
 // add Var
 var rate = document.getElementById('rate-option').value;
+
+// https://8d5e-2a09-bac0-1000-cc5-00-17a-71.ngrok-free.app/
+
+// https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
