@@ -49,3 +49,58 @@ fizzBuzz();
 fizzBuzz();
 
 (5) [1, 2, 3, 4, 5]
+
+
+// If else using Fizz Buzz
+
+
+var output = [];
+var count = 1;
+
+function fizzBuzz() {
+
+    if (count % 3 === 0) {
+        output.push("Fizz");
+    } 
+    else if (count % 5 === 0) {
+        output.push("Buzz");
+    }
+    
+    else {
+        output.push(count);
+    }
+
+    count++;
+
+
+    console.log(output);
+}
+
+
+// goes top down when using funtion so skips numbers that are both Fizz & Buzz need to add &&
+
+var output = [];
+var count = 1;
+
+function fizzBuzz() {
+
+    if (count % 3 === 0 && count % 5 === 0) {
+        output.push("FizzBuzz");
+    }
+
+    else if (count % 3 === 0) {
+        output.push("Fizz");
+    } 
+    else if (count % 5 === 0) {
+        output.push("Buzz");
+    }
+    
+    else {
+        output.push(count);
+    }
+
+    count++;
+
+
+    console.log(output);
+}
