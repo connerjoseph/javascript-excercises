@@ -76,7 +76,6 @@ function fizzBuzz() {
     console.log(output);
 }
 
-
 // goes top down when using funtion so skips numbers that are both Fizz & Buzz need to add &&
 
 var output = [];
@@ -103,4 +102,5 @@ function fizzBuzz() {
 
 
     console.log(output);
+    
 }

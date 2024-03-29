@@ -11,7 +11,8 @@ while(i<2) {
     i++;
 }
 
-// Loop runs function 100 times
+
+// Loop runs function 100 times in loop
 
 
 var output = [];
@@ -42,3 +43,5 @@ function fizzBuzz() {
 
     console.log(output);
 }
+
+
