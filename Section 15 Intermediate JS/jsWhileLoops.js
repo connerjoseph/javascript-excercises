@@ -1,4 +1,4 @@
-// WHile loops
+// While loops
 
 while (something is true) {
     // Do something
@@ -16,6 +16,7 @@ while(i<2) {
 
 
 var output = [];
+
 var count = 1;
 
 function fizzBuzz() {
@@ -43,5 +44,5 @@ function fizzBuzz() {
 
     console.log(output);
 }
-
+ 
 
