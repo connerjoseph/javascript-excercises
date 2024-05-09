@@ -26,7 +26,6 @@ if (loveScore === 100){
 console.log(loveScore);
 
 
-
 // greater than > to have alert depending on certain percentage
 
 
