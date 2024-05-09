@@ -18,7 +18,7 @@ n = n * 6;
 n = Math.floor(n) + 1; // Pseudorandom number generators 
 console.log(n); 
 
-// Love Calculator
+//  Love Calculator
     
 prompt("What is your name?");
 prompt("What is their name?");
