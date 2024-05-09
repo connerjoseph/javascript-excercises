@@ -39,3 +39,15 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+
+#new-game-button {
+  margin: 50px;
+  font-size: 2rem;
+  padding: 0.5em 1em ;
+  color: rgb(255, 255, 255);
+  background-color: rgb(146, 146, 146);
+  border-color: #EEEEEE;
+  border-radius: 10px;
+
+
+}
