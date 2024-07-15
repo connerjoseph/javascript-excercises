@@ -13,3 +13,19 @@ for (var i = 0; i<numberOfDrumButtons; i++) {
 
 
 
+function calculator(num1, num2) {
+    return num1 + num2;
+}
+
+calculator(4,5);
+9
+
+
+
+function calculator(num1, num2) {
+    return num1 * num2;
+}
+
+
+calculator(10, 3);
+30
