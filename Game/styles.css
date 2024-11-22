@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color: #011F3F;
+  background-color: #88acb3;
 }
 
 #level-title {
@@ -27,7 +27,7 @@ body {
 }
 
 .game-over {
-  background-color: red;
+  background-color: maroon;
   opacity: 0.8;
 }
 
