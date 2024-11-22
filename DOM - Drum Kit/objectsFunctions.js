@@ -5,7 +5,7 @@ var houseKeeper1 = {
 }
 
 
-// Constructor Function
+// Constructor Function USE CAPITAL AT BEGINNING OF FUNCTION NAME
 
 function BellBoy (name, age, hasWorkPermit, languages) {
     this.name = name;
@@ -13,7 +13,7 @@ function BellBoy (name, age, hasWorkPermit, languages) {
     this.hasWorkPermit = hasWorkPermit;
     this.Languages = languages;
 }
-
+// Factory
 // Initialise Object 
 
 var bellBoy = new BellBoy("Bob", 19, true, ["French", "Mandarin"]);
