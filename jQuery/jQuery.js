@@ -54,3 +54,18 @@ $("a").attr("href", "https://yahoo.com");
 $("h1").click(function() {
     $("h1").css("colour", "red")
 });
+
+
+// code without jQuery >>
+
+for (var i = 0; i<5;i++) {
+    document.querySelectorAll("button")[i].addEventListener("click", function() {
+        document.querySelector("h1").style.color = "purple";
+    })
+}
+
+// code using jQuery
+
+$("button").click(function() {
+    $("h1").css("color", "purple");
+});
