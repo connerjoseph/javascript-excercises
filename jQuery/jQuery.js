@@ -69,3 +69,21 @@ for (var i = 0; i<5;i++) {
 $("button").click(function() {
     $("h1").css("color", "purple");
 });
+
+// key press event listener, logging the keys pressed in the input box
+
+$("input").keypress(function(event) {
+    console.log(event.key);
+});
+
+//change h1 by pressing a key
+
+$("input").keypress(function(event) {
+    $("h1").text(event.key);
+});
+
+// Using method "on"
+
+$("h1").on("mouseover", fucntion() {
+    $("h1").css("color", "purple");
+});
