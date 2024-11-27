@@ -1,41 +1,50 @@
-// SELECTING ELEMENTS
+// // SELECTING ELEMENTS
 
-document.querySelector("h1");
-// jQuery
-$("h1");
+// document.querySelector("h1");
+// // jQuery
+// $("h1");
 
-document.querySelectorAll("button");
-// jQuery
-$("button");
-
-
-// MANIPULATING STYLES
-
-$("h1").css("color");
-console.log($("h1").css("color"));
-
-console.log($("h1").css("font-size"));
+// document.querySelectorAll("button");
+// // jQuery
+// $("button");
 
 
-// single property you are getting the value, if you have have two your setting the value
+// // MANIPULATING STYLES
 
-$("h1").css("font-size", "5rem");
+// $("h1").css("color");
+// console.log($("h1").css("color"));
 
-// keep javasript about behaviour 
-// keep style code about appearance
-// keep html all about content
+// console.log($("h1").css("font-size"));
 
-$("h1").addClass("big-title");
-// in console to remove
-$("h1").removeClass("big-title");
-// add multiple classes
-$("h1").addClass("big title margin 30");
 
-// in console
-$("h1").hasClass("margin-30");
+// // single property you are getting the value, if you have have two your setting the value
 
-// MANIPULATING TEXT
+// $("h1").css("font-size", "5rem");
 
-$("h1").text("Bye");
+// // keep javasript about behaviour 
+// // keep style code about appearance
+// // keep html all about content
 
-$("button").text("Don't Click Me");
+// $("h1").addClass("big-title");
+// // in console to remove
+// $("h1").removeClass("big-title");
+// // add multiple classes
+// $("h1").addClass("big title margin 30");
+
+// // in console
+// $("h1").hasClass("margin-30");
+
+// // MANIPULATING TEXT
+
+// $("h1").text("Bye");
+
+// $("button").text("Don't Click Me");
+
+// // MANIPULATING ATTRIBUTES
+
+// $("img").attr("src")
+// console.log($("img").attr("src"));
+
+// //amending href attribute
+
+$("a").attr("href", "https://yahoo.com");
