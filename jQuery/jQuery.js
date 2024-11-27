@@ -28,3 +28,14 @@ $("h1").css("font-size", "5rem");
 $("h1").addClass("big-title");
 // in console to remove
 $("h1").removeClass("big-title");
+// add multiple classes
+$("h1").addClass("big title margin 30");
+
+// in console
+$("h1").hasClass("margin-30");
+
+// MANIPULATING TEXT
+
+$("h1").text("Bye");
+
+$("button").text("Don't Click Me");

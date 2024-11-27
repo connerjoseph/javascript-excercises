@@ -7,3 +7,8 @@ body {
     color: maroon;
     font-family: cursive;
 }
+
+
+.margin-30 {
+    margin: 30px
+}
