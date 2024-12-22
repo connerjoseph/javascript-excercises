@@ -15,9 +15,10 @@ $(document).keypress(function() {
   }
 });
 
-$(".btn").click(function() {
-
-  var userChosenColour = $(this).attr("id");
+$(".btn")
+.click(function() {
+  element = $(this);
+  var userChosenColour = element.attr("id");
   userClickedPattern.push(userChosenColour);
 
   playSound(userChosenColour);
@@ -78,6 +79,7 @@ function playSound(name) {
 
 function animatePress(currentColor) {
   $("#" + currentColor).addClass("pressed");
+  
   setTimeout(function () {
     $("#" + currentColor).removeClass("pressed");
   }, 100);
@@ -90,3 +92,11 @@ function startOver() {
   started = false;
   
 }
+
+1. $("#" + currentColor).addClass("pressed");
+
+id_selector_string = "#" + currentColor;
+element = $(id_selector_string);
+
+A_class_name = "pressed"
+element.addClass(A_class_name);
