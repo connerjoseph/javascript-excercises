@@ -22,3 +22,35 @@ console.log(3 + 2); // 5
 
 //This is a decimal number
 3.14159
+
+
+**The Boolean Data Type**
+
+true
+
+false
+
+How to check data type
+
+typeof("3" + "2");
+//string + string = string
+
+typeof(23 + 34 + 12);
+//number + number + number = number
+
+Check 2 data types
+
+console.log(typeof(3.1415 + "2"));
+
+**Automatic Type Conversion**
+
+console.log("3" + 1); // 31
+console.log(typeof("3" + 1));
+
+console.log("3" - 1); // 2
+console.log(typeof("3" - 1));
+
+31
+string
+2
+number
