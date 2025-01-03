@@ -54,3 +54,23 @@ console.log(typeof("3" - 1));
 string
 2
 number
+
+**Manual Type Conversion**
+
+example: Convert to Number
+
+Number(”21”)
+
+//21
+
+
+// Input
+console.log(typeof("21"));
+console.log(typeof(2 + 5));
+console.log(typeof(Boolean(false)));
+
+// Output
+
+string
+number
+boolean
