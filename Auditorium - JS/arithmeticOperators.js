@@ -29,3 +29,12 @@ PEMDAS
 
 console.log(82 / (2 * 2));
 20.5
+
+/*
+BMI for someone 82Kg weight, 2m height
+BMI = weight / height to the power of 2
+*/
+//RIGHT:
+console.log( 82 / 2 ** 2); //82 / 4 = 20.5
+//WRONG:
+console.log( 82 / 2 * 2 ); //41 * 2 = 82
