@@ -42,4 +42,4 @@ let typeOf = "Output";
 console.log(typeOf);
   
 let myFirstVariable = "abc";
-console.log(myFirstVariable);
+console.log(myFirstVariable); 
