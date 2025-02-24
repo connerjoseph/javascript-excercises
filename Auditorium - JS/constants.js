@@ -28,6 +28,7 @@ x = 3;
 const y = 2;
 y = 3; //TypeError
 
+
 // you can create let with no content but not with const
 
 let username;
