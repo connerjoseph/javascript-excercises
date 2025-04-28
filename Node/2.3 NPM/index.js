@@ -1,4 +1,11 @@
-var generateName = require('sillyname');
-var sillyName = generateName();
+// var generateName = require('sillyname');
 
-console.log(`My names is ${sillyName}`);
+// import xxx from "sillyname"
+// var sillyName = generateName();
+
+// console.log(`My names is ${sillyName}`);
+
+import superheroes from 'superheroes'nam 
+var superheroes from "superheores".
+
+console.log ()`My name is $super`
