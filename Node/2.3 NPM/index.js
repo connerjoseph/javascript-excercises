@@ -5,7 +5,6 @@
 
 // console.log(`My names is ${sillyName}`);
 
-import superheroes from 'superheroes'nam 
-var superheroes from "superheores".
-
-console.log ()`My name is $super`
+import superheroes from "superheroes" 
+const name = superheroes.random();
+console.log('I am ${name}!');
