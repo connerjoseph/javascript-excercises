@@ -1,0 +1,26 @@
+{
+  "type": "module",
+  "dependencies": {
+    "inquirer": "^12.6.3",
+    "qr-image": "^3.2.0"
+  },
+  "name": "javascript-excercises",
+  "version": "1.0.0",
+  "description": "Mentorship Excercises",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/connerjoseph/javascript-excercises.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/connerjoseph/javascript-excercises/issues"
+  },
+  "homepage": "https://github.com/connerjoseph/javascript-excercises#readme"
+}

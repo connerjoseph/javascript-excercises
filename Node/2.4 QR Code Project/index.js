@@ -1,3 +1,6 @@
+import inquirer from 'inquirer';
+
+
 /* 
 1. Use the inquirer npm package to get user input.
 2. Use the qr-image npm package to turn the user entered URL into a QR code image.
